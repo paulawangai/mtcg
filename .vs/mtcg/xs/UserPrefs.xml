@@ -5,30 +5,13 @@
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="19" Column="20" />
+      <File FileName="Program.cs" Line="8" Column="47" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="mtcg">
             <Node name="mtcg">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True">
-                  <Node name="Microsoft.AspNetCore.Authentication.JwtBearer" expanded="True" />
-                  <Node name="Microsoft.EntityFrameworkCore.Design" expanded="True" />
-                  <Node name="Microsoft.Extensions.Configuration" expanded="True" />
-                  <Node name="Microsoft.Extensions.Configuration.Json" expanded="True" />
-                  <Node name="Microsoft.NET.Test.Sdk" expanded="True">
-                    <Node name="Microsoft.TestPlatform.TestHost" expanded="True">
-                      <Node name="Microsoft.TestPlatform.ObjectModel" expanded="True" />
-                    </Node>
-                  </Node>
-                </Node>
-              </Node>
-              <Node name="Controllers" expanded="True" />
-              <Node name="DbContexts" expanded="True" />
-              <Node name="Services" expanded="True" />
-              <Node name="Tests" expanded="True" />
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
