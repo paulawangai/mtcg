@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "HFjKHtZaBHIN8/FFxioswIHTbIVicUZH+T3p/Pyf/dc=",
+  "Source": "mtcg",
+  "BasePath": "_content/mtcg",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
