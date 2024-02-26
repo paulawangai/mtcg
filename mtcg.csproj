@@ -28,7 +28,6 @@
     <None Remove="Models\" />
     <None Remove="DbContexts\" />
     <None Remove="Controllers\" />
-    <None Remove="Utilities\" />
     <None Remove="Initialization\" />
     <None Remove="Services\" />
     <None Remove="Tests\" />
@@ -37,7 +36,6 @@
     <Folder Include="Models\" />
     <Folder Include="DbContexts\" />
     <Folder Include="Controllers\" />
-    <Folder Include="Utilities\" />
     <Folder Include="Initialization\" />
     <Folder Include="Services\" />
     <Folder Include="Tests\" />

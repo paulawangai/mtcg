@@ -1,9 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using mtcg;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+
 
 [ApiController]
 [Route("deck")]

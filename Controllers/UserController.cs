@@ -1,9 +1,6 @@
-﻿using System;
-using System.Linq;
-using System.Security.Cryptography;
+﻿using System.Security.Cryptography;
 using System.Text;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
 using mtcg;
 
 

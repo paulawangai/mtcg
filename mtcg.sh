@@ -273,8 +273,8 @@ read -p "Press any key to resume ..." null
 # --------------------------------------------------
 
 echo "17) battle"
-curl -i -X POST http://localhost:10001/battles --header "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IktpZW5ib2VjayIsIm5iZiI6MTcwODgwNTU0MiwiZXhwIjoxNzA4ODEyNzQyLCJpYXQiOjE3MDg4MDU1NDJ9.Lho2Fj3V9jprfS8gYBFrasrR8nWpLHJzwozSFsS2-_0" &
-curl -i -X POST http://localhost:10001/battles/begin --header "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkFsdGVuaG9mZXIiLCJuYmYiOjE3MDg4MDU1NDIsImV4cCI6MTcwODgxMjc0MiwiaWF0IjoxNzA4ODA1NTQyfQ.-aC-Trbyqiuz8v8z-L7rOtveanpP4dOeKAnd6w8lbq4" &
+curl -i -X POST http://localhost:10001/battles --header "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IktpZW5ib2VjayIsIm5iZiI6MTcwODkzMzM3NiwiZXhwIjoxNzA4OTQwNTc2LCJpYXQiOjE3MDg5MzMzNzZ9.JPdtOyBiIY4gECsSggRsNkqexVpXxtX0dwosTASeFUI" &
+curl -i -X POST http://localhost:10001/battles/begin --header "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkFsdGVuaG9mZXIiLCJuYmYiOjE3MDg5MzMzNzYsImV4cCI6MTcwODk0MDU3NiwiaWF0IjoxNzA4OTMzMzc2fQ.U-mEsGVA3mNf4fGNAQ1zJEhLBNcmB_7EGlMw9-47bVc" &
 wait
 
 read -p "Press any key to resume ..." null
@@ -282,10 +282,10 @@ read -p "Press any key to resume ..." null
 # --------------------------------------------------
 echo "18) Stats"
 echo "kienboec"
-curl -i -X GET http://localhost:10001/stats --header "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IktpZW5ib2VjayIsIm5iZiI6MTcwODgwNTU0MiwiZXhwIjoxNzA4ODEyNzQyLCJpYXQiOjE3MDg4MDU1NDJ9.Lho2Fj3V9jprfS8gYBFrasrR8nWpLHJzwozSFsS2-_0"
+curl -i -X GET http://localhost:10001/stats --header "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IktpZW5ib2VjayIsIm5iZiI6MTcwODkzMzM3NiwiZXhwIjoxNzA4OTQwNTc2LCJpYXQiOjE3MDg5MzMzNzZ9.JPdtOyBiIY4gECsSggRsNkqexVpXxtX0dwosTASeFUI"
 echo .
 echo "altenhof"
-curl -i -X GET http://localhost:10001/stats --header "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkFsdGVuaG9mZXIiLCJuYmYiOjE3MDg4MDU1NDIsImV4cCI6MTcwODgxMjc0MiwiaWF0IjoxNzA4ODA1NTQyfQ.-aC-Trbyqiuz8v8z-L7rOtveanpP4dOeKAnd6w8lbq4"
+curl -i -X GET http://localhost:10001/stats --header "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkFsdGVuaG9mZXIiLCJuYmYiOjE3MDg5MzMzNzYsImV4cCI6MTcwODk0MDU3NiwiaWF0IjoxNzA4OTMzMzc2fQ.U-mEsGVA3mNf4fGNAQ1zJEhLBNcmB_7EGlMw9-47bVc"
 echo .
 echo .
 
@@ -293,7 +293,7 @@ read -p "Press any key to resume ..." null
 
 # --------------------------------------------------
 echo "19) scoreboard"
-curl -i -X GET http://localhost:10001/scoreboard --header "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IktpZW5ib2VjayIsIm5iZiI6MTcwODgwNTU0MiwiZXhwIjoxNzA4ODEyNzQyLCJpYXQiOjE3MDg4MDU1NDJ9.Lho2Fj3V9jprfS8gYBFrasrR8nWpLHJzwozSFsS2-_0"
+curl -i -X GET http://localhost:10001/scoreboard --header "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IktpZW5ib2VjayIsIm5iZiI6MTcwODkzMzM3NiwiZXhwIjoxNzA4OTQwNTc2LCJpYXQiOjE3MDg5MzMzNzZ9.JPdtOyBiIY4gECsSggRsNkqexVpXxtX0dwosTASeFUI"
 echo .
 echo .
 

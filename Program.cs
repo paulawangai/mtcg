@@ -1,7 +1,4 @@
-﻿using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Hosting;
-
-namespace mtcg
+﻿namespace mtcg
 {
     public class Program
     {

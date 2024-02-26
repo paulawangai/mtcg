@@ -1,9 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Moq;
-using mtcg;
-using System;
-using System.Linq;
 using Xunit;
 
 namespace mtcg.Tests

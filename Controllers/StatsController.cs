@@ -1,8 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using mtcg;
-using System;
-using System.Linq;
+
 
 [ApiController]
 [Route("stats")]

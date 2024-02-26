@@ -1,8 +1,5 @@
-﻿using System;
-using System.Linq;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Moq;
-using mtcg;
 using Xunit;
 using XunitAssert = Xunit.Assert;
 

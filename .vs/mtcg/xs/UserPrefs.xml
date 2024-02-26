@@ -5,8 +5,11 @@
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="Services/BattleService.cs">
     <Files>
-      <File FileName="Controllers/BattleController.cs" Line="27" Column="64" />
-      <File FileName="Services/BattleService.cs" Line="156" Column="9" />
+      <File FileName="Models/UserStats.cs" Line="11" Column="2" />
+      <File FileName="Controllers/ScoreboardController.cs" Line="16" Column="28" />
+      <File FileName="Controllers/StatsController.cs" Line="38" Column="29" />
+      <File FileName="mtcg.sh" Line="298" Column="7" />
+      <File FileName="Services/BattleService.cs" Line="37" Column="30" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,8 +17,9 @@
           <Node name="mtcg">
             <Node name="mtcg">
               <Node name="Controllers" expanded="True" />
-              <Node name="Migrations" expanded="True" />
-              <Node name="Services">
+              <Node name="DbContexts" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True">
                 <Node name="BattleService.cs" selected="True" />
               </Node>
               <Node name="Tests" expanded="True" />

@@ -1,9 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using mtcg;
-using System;
-using System.Linq;
-using System.Collections.Generic;
+
 
 [ApiController]
 [Route("scoreboard")]

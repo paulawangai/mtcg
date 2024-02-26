@@ -1,11 +1,6 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
+﻿
 using Microsoft.AspNetCore.Mvc;
-using mtcg;
 using Moq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using Xunit;
 
 namespace mtcg.Tests
