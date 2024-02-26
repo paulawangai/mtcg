@@ -49,7 +49,6 @@ public class UserController : ControllerBase
                 Username = request.Username,
                 Password = hashedPassword,
                 Coins = 20
-                // You may set other user properties as needed
             };
 
             // Add the user to the database and save changes

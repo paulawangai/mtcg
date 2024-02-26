@@ -302,7 +302,7 @@ public class TradingController : ControllerBase
             return false;
         }
 
-        // Optionally, you can add more criteria checks here
+        
 
         return true;
     }

@@ -37,7 +37,7 @@ public class mtcgDbContext : DbContext
         modelBuilder.Entity<Battle>()
             .HasOne(b => b.Result)
             .WithOne()
-            .HasForeignKey<BattleResult>(br => br.BattleResultId); // Adjust the property name accordingly
+            .HasForeignKey<BattleResult>(br => br.BattleResultId); 
 
         modelBuilder.Entity<UserStats>()
             .HasKey(us => us.UserId); // Set UserId as the primary key

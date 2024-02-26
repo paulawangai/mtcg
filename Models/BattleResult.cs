@@ -5,6 +5,4 @@
     public bool IsDraw { get; set; }
 
     
-
-    // Additional properties and methods
 }

@@ -4,7 +4,7 @@
 
 ## Technical Steps:
 
-1. Design Phase:
+## 1. Design Phase:
 
 During the design phase, my aim was to get as much understanding as possible for what I needed for my project based on the project requirements. The first step was coming up with the classes
 I felt I needed based on the information given in the requirements - I decided to create classes that would be the building blocks of my project - those were the model classes,
@@ -12,7 +12,7 @@ which I used as a basis to design my database scema to store userdata, cards, de
 in the yaml file - these files would later be my controller classes - this is where the api calls would be executed, lastly i needed separate files for the game logic - which later i named
 my Service classes - this is where i for example handled my battle logic. And finally I needed test files where i'd write out my unit tests
 
-2. Implementation Phase:
+## 2. Implementation Phase:
    - Set up the ASP.NET Core backend project with necessary dependencies.
    - Implemented user authentication and authorization using JWT tokens - created a separate Service file - JwtAuthenticationService.cs to handle this.
    - Created database models based on my Model classes.
@@ -20,14 +20,14 @@ my Service classes - this is where i for example handled my battle logic. And fi
    - Implemented the battle logic and service for conducting battles between players.
    - Integrated unit tests for critical components to ensure reliability.
 
-3. Testing Phase:
+## 3. Testing Phase:
    - Conducted manual testing to ensure proper functioning of API endpoints - i used my curl script for this: each curl command called a different API Endpoint.
    - Executed unit tests to verify the correctness of critical components such as battle logic.
    - Addressed and resolved any bugs or issues identified during testing.
 
 
 
-4. Unit Tests:
+## 4. Unit Tests:
 
 I chose the following unit tests for my mtcg project - only 15 are listed in the documentation but they are 20 in total and are contained in my Tests Folder:
 
@@ -93,7 +93,7 @@ I chose the following unit tests for my mtcg project - only 15 are listed in the
    - Ensures that users can view their profile information.
 
 
-5. Problems encountered:
+## 5. Problems encountered:
 
     - Initially did not create the database before implementing the logic of the game - i created a functional game without using a database initially , the plan was to add the database
       and api endpoint logic later, only to realise that that was the biggest mistake - i had to restart the project implementation from scratch , by first creating a database and working from that.
@@ -107,7 +107,7 @@ I chose the following unit tests for my mtcg project - only 15 are listed in the
     - Threading to allow a battle between two players - this was difficult to create a solution for especially since the battles endpoint was called twice in a row for the two plyers
 
 
-6. Lessons Learned
+## 6. Lessons Learned
 
     - Always start with the database!!!
     - In a project like this a dynamically generated Secret key for token generation is not a good idea
@@ -115,17 +115,17 @@ I chose the following unit tests for my mtcg project - only 15 are listed in the
     - Creating Unit tests that implement mocking 
 
 
-7. Unique Mandatory Feature
+## 7. Unique Mandatory Feature
 
     - Winner is awarded 5 points upon winning a battle: UpdateWinnerCoinBalance(winnerId);
 
-Time Tracking:
+## Time Tracking:
 
-The time spent on the project is tracked as follows:
+## The time spent on the project is tracked as follows:
 
-- Design Phase: [20 hours]
-- Implementation Phase: [400 hours] 
-- Testing Phase: [20 hours]
+## - Design Phase: [20 hours]
+## - Implementation Phase: [400 hours] 
+## - Testing Phase: [20 hours]
 
-Total Time Spent: [440 Hours]
+## Total Time Spent: [440 Hours]
 

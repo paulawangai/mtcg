@@ -109,8 +109,8 @@ namespace mtcg
 
         private bool IsAdmin(string username)
         {
-            // Implement logic to check if the user is an admin (e.g., based on the username)
-            return username == "admin"; // Replace with your actual logic
+            
+            return username == "admin"; 
         }
 
         // Method to generate an admin JWT token

@@ -112,10 +112,12 @@ namespace mtcg.Services
             if (!isDraw)
             {
                 UpdateUserStats(winnerId);
+                UpdateWinnerCoinBalance(winnerId);
             }
 
             return battle.Result;
         }
+
 
 
         private void UpdateUserStats(Guid winnerId)
@@ -133,6 +135,20 @@ namespace mtcg.Services
                 // Save changes to database
                 _context.SaveChanges();
             }
+        }
+
+        private void UpdateWinnerCoinBalance(Guid winnerId)
+        {
+            var winner = _context.Users.FirstOrDefault(u => u.UserId == winnerId);
+            if (winner != null)
+            {
+                // Award 5 coins to the winner
+                winner.Coins += 5;
+
+                // Save changes to the database
+                _context.SaveChanges();
+            }
+
         }
 
 
